@@ -1,8 +1,14 @@
 # Instagram DM bot
+(THIS IS A MODIFIED VERSION OF THE BOT JUST IMPLEMENTING TIME FACTOR TO PREVENT INSTAGRAM FROM FLAGGING THE USER ACCOUNT AS A SPAM ACCOUNT.
+NOTE THIS BOT WAS ORIGINALLY CREATED BY REDIANMARKU https://github.com/redianmarku/ig-dm-bot-acc.git
+)
 
 Instagram DM bot with account switcher feature. This bot can send messages automatically in your list of usernames.
 It will send DMs and switch account automatically. It will switch account every 10 messages, so this means it will
 change account after it sends message to 10 usernames and then it will go to the next account.
+The amount of time before the next message is currently set to a random figure between 1-60 minutes. This can be changed
+each time you rerun the bot from start. 
+The total messages to be sent before logout can also be edited on request.
 
 ## Setup Bot
 
